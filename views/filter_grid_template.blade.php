@@ -9,7 +9,7 @@
         </span>
         <!-- For Scrolbar == class="custom-scrollbar" style="overflow-x: scroll; overflow-y:hidden;" -->
         <div style="transform: rotateX(180deg);width:100%">
-            <div class="row" style="transform: rotateX(180deg);flex-flow: row nowrap !important;padding:7px;padding-left:40px;padding-right:40px;display:flex;flex-wrap:wrap;">
+            <div class="row" style="transform: rotateX(180deg);padding:7px;padding-left:40px;padding-right:40px;display:flex;flex-wrap:wrap;">
                 @yield('fields')
             </div>
         </div>
