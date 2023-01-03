@@ -9,6 +9,8 @@
     padding: 0 30px 0 15px !important;
     height: auto !important;
     font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .custom-scrollbar::-webkit-scrollbar {
@@ -71,4 +73,11 @@
     display: block;
     color: red;
     right: -10px;
+}
+
+.filter-blocks{
+    padding-right: 15px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
