@@ -77,7 +77,7 @@
                         if (header.getAttribute('url-id') == element){
                             (data[header.getAttribute('data-id')]).forEach(val => {
                                 if (val[Object.keys(val)[0]] == args[element]){
-                                    tooltip_args += "<i class='fa fa-dot-circle-o'></i>" + String(val[Object.keys(val)[1]]);
+                                    tooltip_args += "<i class='fa fa-dot-circle-o'></i>" + String(val[Object.keys(val)[header.getAttribute('data-index') ?? 1]]);
                                 }
                             });
                             var title = header.innerHTML;

@@ -4,8 +4,10 @@ This Is A UI Search Component That Makes Search And Filtering More Easy Especial
 
 ##Release Log:
 **v00.00.001**
-  :002
+  :003
     - Next Build
+  :002
+    - Some CSS Issues Resolved For Long Filters
 
   :001
     - Component Initialized With All Dependencies
